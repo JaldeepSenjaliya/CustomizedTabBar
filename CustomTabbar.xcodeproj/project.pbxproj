@@ -13,6 +13,8 @@
 		26CAE0812685279300A54802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE07F2685279300A54802 /* Main.storyboard */; };
 		26CAE0832685279400A54802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE0822685279400A54802 /* Assets.xcassets */; };
 		26CAE0862685279400A54802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE0842685279400A54802 /* LaunchScreen.storyboard */; };
+		26CAE0922685302000A54802 /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0912685302000A54802 /* CustomTabBarVC.swift */; };
+		26CAE0942685343C00A54802 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE0932685343C00A54802 /* TabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		26CAE0822685279400A54802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26CAE0852685279400A54802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26CAE0872685279400A54802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CAE0912685302000A54802 /* CustomTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		26CAE0932685343C00A54802 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				26CAE0792685279300A54802 /* AppDelegate.swift */,
 				26CAE07B2685279300A54802 /* SceneDelegate.swift */,
 				26CAE07D2685279300A54802 /* ViewController.swift */,
+				26CAE0932685343C00A54802 /* TabBarVC.swift */,
+				26CAE0912685302000A54802 /* CustomTabBarVC.swift */,
 				26CAE07F2685279300A54802 /* Main.storyboard */,
 				26CAE0822685279400A54802 /* Assets.xcassets */,
 				26CAE0842685279400A54802 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				26CAE07E2685279300A54802 /* ViewController.swift in Sources */,
 				26CAE07A2685279300A54802 /* AppDelegate.swift in Sources */,
+				26CAE0942685343C00A54802 /* TabBarVC.swift in Sources */,
 				26CAE07C2685279300A54802 /* SceneDelegate.swift in Sources */,
+				26CAE0922685302000A54802 /* CustomTabBarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
